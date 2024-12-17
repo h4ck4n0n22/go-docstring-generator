@@ -2,7 +2,16 @@
   "name": "go-docstring-generator",
   "displayName": "go-docstring-generator",
   "description": "Generates Python-style docstrings for Go code",
-  "version": "0.0.8",
+  "publisher": "Mark J. Awesome",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h4ck4n0n22/go-docstring-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/h4ck4n0n22/go-docstring-generator/issues"
+  },
+  "homepage": "https://github.com/h4ck4n0n22/go-docstring-generator#readme",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.96.0"
   },
