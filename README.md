@@ -44,4 +44,8 @@ fixes to handle single return type
 
 fixes to handle ignoring '{' for function start when no returns are defined
 
+### 1.0.0
+
+First Release
+
 **Enjoy!**
