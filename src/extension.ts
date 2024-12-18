@@ -65,7 +65,7 @@ function generateAndInsertDosctring(editor: vscode.TextEditor, position: vscode.
 	});
 }
 
-function generateDocstring(functionLine: string): string {
+export function generateDocstring(functionLine: string): string {
 	// Extract function name and params
 	const funcRegex = /func\s+(\w+)\((.*?)\)\s*(\((.*?)\)|(\S+))?/;
 	const match = functionLine.match(funcRegex);
